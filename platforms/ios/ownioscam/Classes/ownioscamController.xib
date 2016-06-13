@@ -73,8 +73,14 @@
                     <rect key="frame" x="0.0" y="0.0" width="600" height="535"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXl-gl-gSY">
-                            <rect key="frame" x="259" y="153" width="54" height="50"/>
-                            <state key="normal" title="Button" backgroundImage="Flash1.png"/>
+                            <rect key="frame" x="234" y="153" width="104" height="50"/>
+                            <state key="normal" title="Button" image="Flash1.png" backgroundImage="Flash1.png">
+                                <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjC-bS-JcB">
+                            <rect key="frame" x="149" y="230" width="132" height="132"/>
+                            <state key="normal" image="Camera.png"/>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -97,6 +103,7 @@
         </view>
     </objects>
     <resources>
+        <image name="Camera.png" width="132" height="132"/>
         <image name="Flash1.png" width="50" height="50"/>
     </resources>
 </document>
