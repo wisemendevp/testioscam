@@ -39,6 +39,7 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
+		CE14B2D31D0EAF0B0036F939 /* Flash1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14B2D21D0EAF0B0036F939 /* Flash1.png */; };
 		CE4556CD1CCCB627009C5183 /* ownioscamController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4556CB1CCCB627009C5183 /* ownioscamController.m */; };
 		CE4556CE1CCCB627009C5183 /* ownioscamController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4556CC1CCCB627009C5183 /* ownioscamController.xib */; };
 		CE4556D11CCCB9B6009C5183 /* ownioscam.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4556D01CCCB9B6009C5183 /* ownioscam.m */; };
@@ -101,6 +102,7 @@
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ownioscam-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ownioscam-Info.plist"; path = "../ownioscam-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE14B2D21D0EAF0B0036F939 /* Flash1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flash1.png; sourceTree = "<group>"; };
 		CE4556CA1CCCB627009C5183 /* ownioscamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ownioscamController.h; path = ownioscam/Classes/ownioscamController.h; sourceTree = "<group>"; };
 		CE4556CB1CCCB627009C5183 /* ownioscamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ownioscamController.m; path = ownioscam/Classes/ownioscamController.m; sourceTree = "<group>"; };
 		CE4556CC1CCCB627009C5183 /* ownioscamController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ownioscamController.xib; path = ownioscam/Classes/ownioscamController.xib; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				CE14B2D21D0EAF0B0036F939 /* Flash1.png */,
 				CE4556CF1CCCB9B6009C5183 /* ownioscam.h */,
 				CE4556D01CCCB9B6009C5183 /* ownioscam.m */,
 				CE4556CA1CCCB627009C5183 /* ownioscamController.h */,
@@ -366,6 +369,7 @@
 				3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */,
 				7E7966E21810823500FA85AD /* icon-60.png in Resources */,
 				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
+				CE14B2D31D0EAF0B0036F939 /* Flash1.png in Resources */,
 				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
 				30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */,
 				30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */,
