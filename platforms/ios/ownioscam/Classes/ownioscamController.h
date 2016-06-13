@@ -22,5 +22,6 @@
 // Declare some properties (to be explained soon)
 @property (strong, nonatomic) ownioscam* plugin;
 @property (strong, nonatomic) UIImagePickerController* picker;
+- (IBAction)FlashAction:(id)sender;
 
 @end

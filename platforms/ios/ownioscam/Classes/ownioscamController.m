@@ -299,4 +299,6 @@ else return UIInterfaceOrientationPortrait;
     }
 }
 
+- (IBAction)FlashAction:(id)sender {
+}
 @end
