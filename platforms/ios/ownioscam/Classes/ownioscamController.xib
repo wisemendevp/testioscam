@@ -71,10 +71,17 @@
                 </toolbar>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XBV-Hh-95m">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="535"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkL-Vh-19f">
+                            <rect key="frame" x="241" y="279" width="186" height="132"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" image="Camera.png" backgroundImage="Camera.png"/>
+                        </button>
+                    </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="0.75874660329999999" green="0.21855035959999999" blue="0.21551042040000001" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="XBV-Hh-95m" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="26k-uX-eCI"/>
                 <constraint firstAttribute="bottom" secondItem="QGb-zx-UAK" secondAttribute="bottom" id="CLc-yy-w3n"/>
@@ -90,4 +97,7 @@
             <point key="canvasLocation" x="339" y="506"/>
         </view>
     </objects>
+    <resources>
+        <image name="Camera.png" width="132" height="132"/>
+    </resources>
 </document>
